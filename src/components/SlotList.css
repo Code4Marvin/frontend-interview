@@ -1,0 +1,71 @@
+.slotPanel {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(74, 82, 116, 0.12);
+  flex: 1;
+  min-width: 280px;
+  padding: 20px;
+}
+
+.slotHeading {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+
+.slotEmpty {
+  color: #8a90a6;
+  font-size: 14px;
+  margin: 0;
+}
+
+.slotList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slot {
+  align-items: center;
+  border: 1px solid #e2e5f0;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px 12px;
+}
+
+.slot--selected {
+  background: #eef1fb;
+  border-color: #5e6fbe;
+}
+
+.slotMain {
+  background: none;
+  border: none;
+  cursor: pointer;
+  flex: 1;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+  text-align: left;
+}
+
+.slotDetailsToggle {
+  background: none;
+  border: none;
+  color: #5e6fbe;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 0;
+}
+
+.slotDetails {
+  color: #8a90a6;
+  flex-basis: 100%;
+  font-size: 12px;
+  margin: 0;
+}

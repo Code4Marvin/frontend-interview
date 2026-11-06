@@ -1,0 +1,81 @@
+.dayGridPanel {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(74, 82, 116, 0.12);
+  padding: 20px;
+  width: 360px;
+}
+
+.monthNav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.monthNav button {
+  background: none;
+  border: 1px solid #d8dce8;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  height: 32px;
+  line-height: 1;
+  width: 32px;
+}
+
+.monthNav button:hover {
+  background: #f1f3fa;
+}
+
+.monthLabel {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.weekdays {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8px;
+}
+
+.weekday {
+  color: #8a90a6;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.dayGrid {
+  gap: 4px;
+}
+
+.day {
+  background: none;
+  border: none;
+  border-radius: 8px;
+  color: #171d37;
+  cursor: pointer;
+  font-size: 14px;
+  height: 40px;
+  width: 48px;
+}
+
+.day:hover:not(:disabled) {
+  background: #eef1fb;
+}
+
+.day:disabled {
+  color: #c2c8d9;
+  cursor: not-allowed;
+}
+
+.day--today {
+  font-weight: 700;
+}
+
+.day--selected {
+  background: #5e6fbe;
+  color: #ffffff;
+}
