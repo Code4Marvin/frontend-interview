@@ -72,12 +72,10 @@ Two things go wrong when you switch days:
 
 Fix both. Expect to explain what React is doing here.
 
-### 4. Stretch — stale responses
+### 4. Stretch — the calendar needs a mouse
 
-The mock API responds at different speeds depending on the day (the 15th, 20th, 25th and
-30th are deliberately slow).
+Put the mouse down and book a session using only the keyboard, starting from the top of
+the page. Some of our clients use a screen reader, so assume that matters too.
 
-Click a slow day and then immediately click a fast one. The slow day's slots eventually
-arrive and overwrite the ones you're actually looking at.
-
-You probably won't have time to implement this. Talk us through how you'd fix it.
+Tell us what you run into and how you would fix each thing. You almost certainly won't
+have time to implement it — we are after the diagnosis, not the patch.

@@ -23,7 +23,7 @@ export function hasAvailability(key: DateKey): boolean {
   return dayOfMonth % 7 !== 3 && dayOfMonth % 7 !== 5;
 }
 
-// Days divisible by 5 respond slowly on purpose -- see SOLUTIONS.md, task 4.
+// Days divisible by 5 respond slowly on purpose -- see SOLUTIONS.md, task 3.
 function latencyFor(key: DateKey): number {
   const dayOfMonth = Number(key.slice(8, 10));
   return dayOfMonth % 5 === 0 ? 1800 : 220;
