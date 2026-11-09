@@ -29,11 +29,16 @@ src/
   lib/dates.ts          date helpers
   context/
     CalendarContext.tsx selected-day context
+  data/therapists.ts    5,000-row therapist directory (generated, deterministic)
   components/
     BookingWidget.tsx   top-level state
     DayGrid.tsx         month grid + day selection
     SlotList.tsx        time slots for the selected day
+    TherapistFinder.tsx the "Find a therapist" tab
 ```
+
+The two tabs at the top of the page are separate exercises. Tasks 1-4 are the booking
+widget; task 5 is the therapist finder.
 
 ## Tasks
 
@@ -79,3 +84,16 @@ the page. Some of our clients use a screen reader, so assume that matters too.
 
 Tell us what you run into and how you would fix each thing. You almost certainly won't
 have time to implement it — we are after the diagnosis, not the patch.
+
+### 5. The therapist finder lags while you type
+
+Switch to the **Find a therapist** tab and search for something broad — `anxiety`, or just
+the letter `a`. Typing is visibly behind your fingers: characters land in bursts instead of
+as you press them. Clicking the ★ on a row is slow in the same way, even though nothing
+about the search has changed.
+
+Diagnose it first, out loud, before you touch anything.
+
+Then fix it. Say what you expect each change to buy *before* you make it, and measure
+afterwards — we're at least as interested in whether your prediction held as in the final
+number.

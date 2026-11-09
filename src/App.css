@@ -1,0 +1,23 @@
+.appNav {
+  background: #ffffff;
+  border-bottom: 1px solid #e2e5f0;
+  display: flex;
+  gap: 4px;
+  padding: 0 20px;
+}
+
+.appNavTab {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: #8a90a6;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 12px;
+}
+
+.appNavTab--active {
+  border-bottom-color: #5e6fbe;
+  color: #171d37;
+}
