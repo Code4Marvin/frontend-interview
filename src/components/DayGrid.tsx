@@ -58,7 +58,7 @@ export function DayGrid({ month, onSelectDay, onStepMonth, selectedKey }: DayGri
         ))}
       </div>
 
-      <div className="dayGrid">
+      <div className="days">
         {cells.map((cell, index) =>
           cell ? (
             <DayButton
